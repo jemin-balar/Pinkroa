@@ -1,0 +1,47 @@
+.inputfield {
+    border-color: black;
+    color: green;
+    padding: 6px 0px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* size: 40 */
+}
+
+.subscribebtn {
+    color: rgb(38, 34, 34);
+    background-color: rgb(171, 122, 95);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: black;
+    padding: 6px 1rem;
+}
+
+.mainsection {
+    height: 44vh;
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 3rem;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 10rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 470px) {
+    .inputfield {
+        size: 30;
+    }
+}

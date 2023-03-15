@@ -1,0 +1,23 @@
+.aboutnavigate {
+    background-color: rgb(234, 222, 215);
+    height: 15vh;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.abouttext {
+    color: rgb(121, 87, 68);
+    cursor: pointer;
+}
+
+.pathtext {
+    color: #453227;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 510px) {
+
+    h1 {
+        font-size: calc(1.375rem + -0.5vw) !important;
+    }
+}

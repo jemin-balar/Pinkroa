@@ -1,0 +1,12 @@
+.addcartbtn {
+    color: rgb(234, 222, 192);
+    background-color: rgb(171, 122, 95);
+    border-radius: 5px;
+    border-color: transparent;
+    padding: 2px 16px;
+    margin-top: 5px;
+}
+
+.addcartbtn:hover {
+    background-color: rgb(199, 106, 52);
+}

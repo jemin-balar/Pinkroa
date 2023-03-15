@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionbg {
+    height: 100%;
+    background-color: rgb(234, 222, 215);
+    padding: 70px;
+}
+
+
+.visionbox {
+    height: 100%;
+    background-color: rgb(197, 164, 145);
+    width: 100%;
+    color: antiquewhite;
+    border-radius: 5px;
+    padding: 2rem 1.5rem;
+}
+
+.boxtext {
+    text-align: center;
+    font-size: large;
+}
+
+.boxheading {
+    width: 100px;
+    border-radius: 50%;
+    height: 100px;
+    display: flex;
+    margin: auto;
+}
+
+.background {
+    background-color: aliceblue;
+    border-radius: 50%;
+    color: green;
+    width: 6rem;
+    display: grid;
+    margin: auto;
+    place-content: center;
+    height: 6rem;
+}
+
+@media screen and (max-width: 450px) {
+    .sectionbg {
+        padding: 0px;
+    }
+}

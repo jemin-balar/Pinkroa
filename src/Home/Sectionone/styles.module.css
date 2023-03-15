@@ -1,0 +1,50 @@
+.shopbtn {
+    border-radius: 5px;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(171, 122, 95);
+    color: rgb(234, 222, 215);
+    border-color: transparent;
+}
+
+.shopbtn:hover {
+    background-color: rgb(199, 106, 52);
+}
+
+.img {
+    position: relative;
+    display: grid;
+    place-content: center;
+}
+
+.homeimg1 {
+    width: 29rem;
+    border-radius: 0.4rem;
+    position: relative;
+    /* margin-left: 108px; */
+    margin-top: 4rem;
+}
+
+.homeimg2 {
+    border-radius: 0.4rem;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    transform: scaleX(1.2);
+    height: 151px;
+}
+
+.backgroundimg {
+    background-color: rgb(222, 203, 192);
+    border-radius: 5px;
+    height: 30rem;
+    position: absolute;
+    left: 0.1rem;
+    width: 30%;
+    bottom: 0;
+}
+
+@media screen and (max-width:992px) {
+    .img {
+        display: none;
+    }
+}

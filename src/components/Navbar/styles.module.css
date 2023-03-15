@@ -1,0 +1,29 @@
+.text {
+    font-family: cursive;
+    font-style: italic;
+}
+
+.logo {
+    color: rgb(183, 158, 118);
+}
+
+.navtext:hover {
+    text-decoration-color: red !important;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.cartitem {
+    background-color: rgb(171, 122, 95);
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.login {
+    background-color: rgb(171, 122, 95);
+    color: white;
+    border-radius: 6px;
+    border-color: transparent;
+    padding: 5px 19px;
+}

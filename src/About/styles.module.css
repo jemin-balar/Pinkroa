@@ -1,0 +1,23 @@
+.divset {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.imgset {
+    width: 89%;
+    height: 65vh;
+}
+
+.abouttextdecorate {
+    text-decoration: underline;
+    text-decoration-color: rgb(121, 87, 68);
+    text-underline-offset: 8px;
+}
+
+@media screen and (min-width: 991px) {
+    .imgset {
+        padding: 0rem 2rem 1rem 6rem;
+        width: 100%;
+    }
+}
